@@ -24,8 +24,6 @@ Logistic Regression
 
 This is a classification algorithm used to predict binary outcomes (Yes/No).
 
-
-
 📐 Mathematical Model:
 
 The model uses the sigmoid function:
@@ -35,8 +33,6 @@ The model uses the sigmoid function:
 Where:
 	•	z = β0 + β1(Age) + β2(Salary)
 
-
-
 🧹 Steps Performed:
 	1.	Load dataset using Pandas
 	2.	Data cleaning (remove missing values & duplicates)
@@ -45,20 +41,14 @@ Where:
 	5.	Test model performance
 	6.	Evaluate accuracy
 
-
-
 📊 Evaluation Metrics:
 	•	Accuracy Score
 	•	Confusion Matrix
 	•	Classification Report
 
-
-
 🎯 Results:
 
 The model predicts whether a customer will buy or not with good accuracy based on training data.
-
-
 
 🧠 Conclusion:
 
