@@ -17,7 +17,7 @@ salary = st.number_input("Salary")
 
 if st.button("Predict"):
     result = model.predict([[age, salary]])
-    st.write(result)
+  
     if result[0]==1:
         st.success("Customer will Buy")
     else:
